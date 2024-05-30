@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./formation_observable_SSP/dist
+          path: ./formation/dist
 
   deploy:
     needs: build
